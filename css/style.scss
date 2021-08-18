@@ -1,4 +1,7 @@
-@import 'owl.carousel.css', 'media-queries.css', 'owl.theme.default.css', 'owl.carousel.min.css', 'owl.theme.default.min.css';
+@import   'owl.carousel.css';
+@import 'owl.theme.default.css';
+@import  'owl.carousel.min.css';
+@import 'owl.theme.default.min.css';
 
 $whiteColor : #ffffff;
 $rbtBld : 'Roboto-Bold', sans-serif;
@@ -97,14 +100,16 @@ header{
           display: inline-block;
         }
       }
-    }
-  }
-  i{
-    font-size: 13px;
-    color:#777777;
-    transition: .3s linear;
-    &:hover{
-      color:black;
+      i{
+        color:#777777;
+        font-size: 11px;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: .3s linear;
+        &:hover{
+          color: black;
+        }
+      }
     }
   }
 }
@@ -205,7 +210,7 @@ header{
   .slideTitle{
     position: absolute;
     top:40%;
-    left:20%;
+    left:24%;
     color: #ffffff;
     text-align: center;
     h3{
