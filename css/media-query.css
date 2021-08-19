@@ -1,0 +1,96 @@
+@media only screen and (max-width: 1024px) {
+  header {
+    padding: 27px 27px; }
+
+  .slide .slideTitle {
+    left: 17%; }
+    .slide .slideTitle h3 {
+      font-size: 33px; }
+
+  .owl-prev {
+    left: 20px; }
+
+  .owl-next {
+    right: 20px; }
+
+  .galleryColumnFirst, .galleryColumnSecond, .galleryColumnThird {
+    padding: 0 20px; } }
+@media only screen and (max-width: 768px) {
+  .upperMenu ul {
+    min-width: 440px;
+    max-width: 460px; }
+    .upperMenu ul li a, .upperMenu ul li i {
+      font-size: 14px; }
+    .upperMenu ul li a:before, .upperMenu ul li a:hover:before {
+      display: none; }
+    .upperMenu ul li i {
+      margin-left: 12px; }
+
+  .slide .slideTitle {
+    left: 20%; }
+    .slide .slideTitle h3 {
+      font-size: 23px;
+      margin-bottom: 30px; }
+    .slide .slideTitle p {
+      letter-spacing: 2px;
+      font-size: 12px; }
+
+  .owl-dots {
+    bottom: 10px; }
+
+  .owl-nav {
+    top: 45%; }
+
+  .owl-prev:after, .owl-next:after {
+    height: 20px;
+    width: 20px;
+    line-height: 20px; }
+
+  .contentList ul {
+    margin: 24px 0; }
+    .contentList ul li a {
+      font-size: 14px; }
+
+  .gallery {
+    flex-direction: column;
+    padding: 0 20px; }
+
+  div.galleryPic {
+    margin-bottom: 15px; }
+
+  footer {
+    padding: 70px; } }
+@media only screen and (max-width: 420px) {
+  .container.d-flex {
+    flex-direction: column; }
+
+  div.logo {
+    margin-bottom: 15px; }
+
+  .upperMenu ul {
+    min-width: 220px; }
+    .upperMenu ul li a, .upperMenu ul li i {
+      font-size: 13px;
+      margin-right: 10px; }
+
+  .slide .slideTitle h3 {
+    font-size: 12px;
+    padding: 9px 2px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+    width: 230px; } }
+@media only screen and (max-width: 375px) {
+  .owl-prev:after, owl-next:after {
+    font-size: 10px; } }
+@media only screen and (max-width: 360px) {
+  .slide .slideTitle {
+    left: 18%;
+    top: 35%; }
+
+  .owl-prev:after, .owl-next:after {
+    font-size: 10px; }
+
+  .owl-dots {
+    bottom: 5px; } }
+
+/*# sourceMappingURL=media-query.css.map */
