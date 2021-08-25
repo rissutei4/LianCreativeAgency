@@ -1,6 +1,18 @@
 @media only screen and (max-width: 1024px) {
   header {
     padding: 27px 27px; }
+    header .container.d-flex {
+      max-width: 800px; }
+
+  .upperMenu ul li a {
+    font-size: 14px; }
+  .upperMenu ul li:last-of-type {
+    margin-left: 20px; }
+  .upperMenu ul li i {
+    font-size: 14px; }
+
+  .contentList ul li a {
+    font-size: 14px; }
 
   .slide .slideTitle {
     left: 17%; }
@@ -16,15 +28,47 @@
   .galleryColumnFirst, .galleryColumnSecond, .galleryColumnThird {
     padding: 0 20px; } }
 @media only screen and (max-width: 768px) {
-  .upperMenu ul {
-    min-width: 440px;
-    max-width: 460px; }
-    .upperMenu ul li a, .upperMenu ul li i {
-      font-size: 14px; }
-    .upperMenu ul li a:before, .upperMenu ul li a:hover:before {
-      display: none; }
-    .upperMenu ul li i {
-      margin-left: 12px; }
+  header {
+    position: relative; }
+    header label {
+      visibility: visible;
+      opacity: 1;
+      padding-right: 20px; }
+    header input:checked ~ .upperMenu {
+      transform: scaleY(1);
+      opacity: 1; }
+    header input:checked ~ label::before {
+      content: '\f00d'; }
+    header .container.d-flex {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
+      max-width: 700px; }
+
+  .upperMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transform-origin: top;
+    transform: scaleY(0);
+    opacity: 0;
+    transition: .2s linear; }
+    .upperMenu ul {
+      min-width: 440px;
+      max-width: 460px;
+      flex-direction: column; }
+      .upperMenu ul li {
+        margin-bottom: 20px; }
+      .upperMenu ul li a, .upperMenu ul li i {
+        font-size: 23px; }
+      .upperMenu ul li a:before, .upperMenu ul li a:hover:before {
+        display: none; }
+      .upperMenu ul li i {
+        margin-left: 12px; }
 
   .slide .slideTitle {
     left: 20%; }
@@ -61,8 +105,8 @@
   footer {
     padding: 70px; } }
 @media only screen and (max-width: 420px) {
-  .container.d-flex {
-    flex-direction: column; }
+  header .container.d-flex {
+    max-width: 367px; }
 
   div.logo {
     margin-bottom: 15px; }
@@ -70,7 +114,7 @@
   .upperMenu ul {
     min-width: 220px; }
     .upperMenu ul li a, .upperMenu ul li i {
-      font-size: 13px;
+      font-size: 19px;
       margin-right: 10px; }
 
   .slide .slideTitle h3 {
@@ -83,6 +127,9 @@
   .fterCredits {
     text-align: center; } }
 @media only screen and (max-width: 375px) {
+  header .container.d-flex {
+    max-width: 320px; }
+
   .owl-prev:after, owl-next:after {
     font-size: 10px; } }
 @media only screen and (max-width: 360px) {

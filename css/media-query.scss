@@ -1,6 +1,37 @@
 @media only screen and (max-width: 1024px) {
   header{
     padding: 27px 27px;
+    .container{
+      &.d-flex{
+        max-width: 800px;
+      }
+    }
+  }
+
+  .upperMenu{
+    ul{
+      li{
+        a{
+          font-size: 14px;
+        }
+        &:last-of-type{
+          margin-left: 20px;
+        }
+        i{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .contentList{
+    ul{
+      li{
+        a{
+          font-size: 14px;
+        }
+      }
+    }
   }
 
   .slide{
@@ -28,12 +59,50 @@
 
 @media only screen and (max-width: 768px) {
 
+  header{
+    position: relative;
+    label{
+      visibility: visible;
+      opacity: 1;
+      padding-right: 20px;
+    }
+    input:checked ~ .upperMenu{
+      transform: scaleY(1);
+      opacity: 1;
+    }
+    input:checked ~ label::before{
+      content:'\f00d';
+    }
+    .container{
+      &.d-flex{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        max-width: 700px;
+      }
+    }
+  }
   .upperMenu{
+      position: absolute;
+      top:100%;
+      left: 0;
+      width:100%;
+      background:#fff;
+      padding:1rem 2rem;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+      transform-origin: top;
+      transform: scaleY(0);
+      opacity: 0;
+      transition: .2s linear;
     ul{
       min-width: 440px;
       max-width: 460px;
+      flex-direction: column;
+      li{
+      margin-bottom: 20px;
+      }
       li a, li i{
-        font-size: 14px;
+        font-size: 23px;
       }
       li a:before, li a:hover:before {
         display: none;
@@ -43,6 +112,7 @@
       }
     }
   }
+
   .slide{
     .slideTitle{
       left: 20%;
@@ -91,11 +161,14 @@
   }
 }
 @media only screen and (max-width: 420px) {
-  .container{
-    &.d-flex{
-      flex-direction: column;
+  header{
+    .container{
+      &.d-flex{
+        max-width: 367px;
+      }
     }
   }
+
 
   div.logo{
     margin-bottom: 15px;
@@ -104,7 +177,7 @@
   .upperMenu ul{
     min-width: 220px;
     li a, li i{
-      font-size: 13px;
+      font-size: 19px;
       margin-right: 10px;
     }
   }
@@ -124,6 +197,13 @@
 }
 
 @media only screen and (max-width: 375px) {
+  header{
+    .container{
+      &.d-flex{
+        max-width: 320px;
+      }
+    }
+  }
   .owl-prev, owl-next{
     &:after{
       font-size: 10px;
@@ -132,6 +212,8 @@
 }
 
 @media only screen and (max-width: 360px) {
+
+
   .slide .slideTitle {
     left: 18%;
     top: 35%

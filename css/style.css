@@ -36,7 +36,20 @@ body {
 header {
   background-color: #ffffff;
   padding: 27px 0;
-  box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset; }
+  box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; }
+  header input {
+    display: none; }
+  header label {
+    font-size: 30px;
+    color: #4a4a4a;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0; }
 
 .container {
   max-width: 1195px;
@@ -50,13 +63,13 @@ header {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  min-width: 440px;
-  max-width: 440px;
+  min-width: 455px;
+  max-width: 455px;
   justify-content: space-between;
   align-items: baseline; }
   .upperMenu ul li a {
     color: #777777;
-    font-size: 11px;
+    font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Roboto-Bold", sans-serif;
@@ -79,12 +92,14 @@ header {
       display: inline-block; }
   .upperMenu ul li i {
     color: #777777;
-    font-size: 11px;
+    font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
     transition: .3s linear; }
     .upperMenu ul li i:hover {
       color: black; }
+  .upperMenu ul li:last-of-type {
+    margin-left: 20px; }
 
 .owl-nav {
   width: 100%;

@@ -4,6 +4,7 @@
 @import 'owl.theme.default.min.css';
 
 $whiteColor : #ffffff;
+
 $rbtBld : 'Roboto-Bold', sans-serif;
 $rbtLight : 'Roboto-Light', sans-serif;
 
@@ -72,6 +73,20 @@ header{
   background-color: $whiteColor;
   padding: 27px 0;
   box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+  position:fixed;
+  top:0; left:0;
+  width:100%;
+  z-index: 1000;
+  input{
+    display: none;
+  }
+  label{
+    font-size: 30px;
+    color:#4a4a4a;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+  }
 }
 .container{
   max-width: 1195px;
@@ -87,14 +102,14 @@ header{
   ul{
     @include flex-DirRow();
     list-style-type: none;
-    min-width: 440px;
-    max-width: 440px;
+    min-width: 455px;
+    max-width: 455px;
     justify-content: space-between;
     align-items: baseline;
     li{
       a{
         color:#777777;
-        font-size: 11px;
+        font-size: 14px;
         text-decoration: none;
         text-transform: uppercase;
         font-family: $rbtBld;
@@ -121,13 +136,16 @@ header{
       }
       i{
         color:#777777;
-        font-size: 11px;
+        font-size: 14px;
         text-decoration: none;
         text-transform: uppercase;
         transition: .3s linear;
         &:hover{
           color: black;
         }
+      }
+      &:last-of-type{
+        margin-left: 20px;
       }
     }
   }
