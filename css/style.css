@@ -16,6 +16,16 @@
   font-weight: 300;
   font-style: normal;
   font-display: swap; }
+@keyframes moveDown {
+  0% {
+    transform: translate(-500px, -400px); }
+  100% {
+    transform: translate(0, 0); } }
+@keyframes moveUp {
+  0% {
+    transform: translate(500px, 400px); }
+  100% {
+    transform: translate(0, 0); } }
 * {
   margin: 0;
   padding: 0; }
@@ -139,15 +149,15 @@ header {
   width: 6px;
   height: 6px;
   background-color: #fff;
-  border: 1px solid #eff1f0;
+  border: 3px solid #eff1f0;
   border-radius: 50%;
   display: inline-block;
   transition: 0.3s; }
 .owl-carousel .owl-dots .active span {
   background-color: #fff;
   border: 3px solid #000;
-  width: 4px;
-  height: 4px; }
+  width: 6px;
+  height: 6px; }
 .owl-carousel .owl-dots button:nth-child(2) {
   margin: 0 9px 0 9px; }
 
@@ -169,13 +179,15 @@ header {
       background-color: black;
       letter-spacing: 10px;
       margin-bottom: 40px;
-      font-family: "Roboto-Light", sans-serif; }
+      font-family: "Roboto-Light", sans-serif;
+      animation: moveDown 2s ease-in-out; }
     .slide .slideTitle p {
       font-size: 18px;
       color: #000000;
       text-transform: uppercase;
       letter-spacing: 10px;
-      font-family: "Roboto-Light", sans-serif; }
+      font-family: "Roboto-Light", sans-serif;
+      animation: moveUp 2s ease-in-out; }
 
 .contentList ul {
   border-top: 1px solid #e1e1e1;
@@ -205,6 +217,8 @@ header {
       height: 25px;
       margin: 0 20px;
       vertical-align: middle; }
+    .contentList ul li a.dsNone:after {
+      display: none; }
 
 .container.gal {
   margin-bottom: 40px; }

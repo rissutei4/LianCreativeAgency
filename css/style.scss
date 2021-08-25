@@ -41,6 +41,25 @@ $rbtLight : 'Roboto-Light', sans-serif;
   font-display: swap;
 }
 
+@keyframes moveDown {
+  0% {
+    transform: translate(-500px, -400px);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translate(500px, 400px);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
+
+
 *{
   margin: 0;
   padding: 0;
@@ -185,7 +204,7 @@ header{
         width: 6px;
         height: 6px;
         background-color: #fff;
-        border: 1px solid #eff1f0;
+        border: 3px solid #eff1f0;
         border-radius: 50%;
         display: inline-block;
         transition: 0.3s;
@@ -193,8 +212,8 @@ header{
      & .active span{
       background-color: #fff;
       border: 3px solid #000;
-      width: 4px;
-      height: 4px;}
+      width: 6px;
+      height: 6px;}
     button:nth-child(2){
       margin: 0 9px 0 9px;
     }
@@ -221,6 +240,7 @@ header{
       letter-spacing: 10px;
       margin-bottom: 40px;
       font-family: $rbtLight;
+      animation: moveDown 2s ease-in-out;
     }
     p{
       font-size: 18px;
@@ -228,6 +248,7 @@ header{
       text-transform: uppercase;
       letter-spacing: 10px;
       font-family:  $rbtLight;
+      animation: moveUp 2s ease-in-out;
     }
   }
 }
@@ -262,6 +283,9 @@ header{
       height: 25px;
       margin: 0 20px;
       vertical-align: middle;
+    }
+    &.dsNone:after {
+      display: none;
     }
   }
   }
