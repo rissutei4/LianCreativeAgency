@@ -1,52 +1,56 @@
 @media only screen and (max-width: 1024px) {
-  header{
+  header {
     padding: 27px 27px;
-    .container{
-      &.d-flex{
+
+    .container {
+      &.d-flex {
         max-width: 800px;
       }
     }
   }
 
-  .upperMenu{
-    ul{
-      li{
-        a{
+  .upperMenu {
+    ul {
+      li {
+        a {
           font-size: 14px;
         }
-        &:last-of-type{
+
+        &:last-of-type {
           margin-left: 20px;
         }
-        i{
+
+        i {
           font-size: 14px;
         }
       }
     }
   }
 
-  .contentList{
-    ul{
-      li{
-        a{
+  .contentList {
+    ul {
+      li {
+        a {
           font-size: 14px;
         }
       }
     }
   }
 
-  .slide{
-    .slideTitle{
-      left:17%;
-      h3{
+  .slide {
+    .slideTitle {
+      left: 17%;
+
+      h3 {
         font-size: 33px;
       }
     }
   }
 
-  .owl-prev{
-    left:20px;
+  .owl-prev {
+    left: 20px;
   }
-  .owl-next{
+  .owl-next {
     right: 20px;
   }
   .galleryColumnFirst, .galleryColumnSecond, .galleryColumnThird {
@@ -59,22 +63,26 @@
 
 @media only screen and (max-width: 768px) {
 
-  header{
+  header {
     position: relative;
-    label{
+
+    label.fas {
       visibility: visible;
       opacity: 1;
       padding-right: 20px;
     }
-    input:checked ~ .upperMenu{
+
+    input#menu-bar:checked ~ .upperMenu {
       transform: scaleY(1);
       opacity: 1;
     }
-    input:checked ~ label::before{
-      content:'\f00d';
+
+    input#menu-bar:checked ~ label::before {
+      content: '\f00d';
     }
-    .container{
-      &.d-flex{
+
+    .container {
+      &.d-flex {
         flex-direction: row;
         justify-content: space-between;
         align-items: baseline;
@@ -82,108 +90,132 @@
       }
     }
   }
-  .upperMenu{
-      position: absolute;
-      top:100%;
-      left: 0;
-      width:100%;
-      background:#fff;
-      padding:1rem 2rem;
-      box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-      transform-origin: top;
-      transform: scaleY(0);
-      opacity: 0;
-      transition: .2s linear;
-    ul{
+  .upperMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    transform-origin: top;
+    transform: scaleY(0);
+    opacity: 0;
+    transition: .2s linear;
+
+    ul {
       min-width: 440px;
       max-width: 460px;
       flex-direction: column;
-      li{
-      margin-bottom: 20px;
+
+      li {
+        margin-bottom: 20px;
       }
-      li a, li i{
+
+      li a, li i {
         font-size: 23px;
       }
+
       li a:before, li a:hover:before {
         display: none;
       }
-      li i{
+
+      li i {
         margin-left: 12px;
       }
     }
   }
-
-  .slide{
-    .slideTitle{
+  .searchbtn {
+    .fas {
+      left: 25%;
+    }
+  }
+  .slide {
+    .slideTitle {
       left: 20%;
-      h3{
+
+      h3 {
         font-size: 23px;
         margin-bottom: 30px
       }
-      p{
+
+      p {
         letter-spacing: 2px;
         font-size: 12px;
       }
     }
   }
 
-  .owl-dots{
+  .owl-dots {
     bottom: 10px;
   }
 
-  .owl-nav{
-    top:45%;
+  .owl-nav {
+    top: 45%;
   }
-  .owl-prev:after, .owl-next:after{
+  .owl-prev:after, .owl-next:after {
     height: 20px;
     width: 20px;
     line-height: 20px;
   }
-  .contentList{
-    ul{
+  .contentList {
+    ul {
       margin: 24px 0;
-      li{
-        a{
+
+      li {
+        a {
           font-size: 14px;
         }
       }
     }
   }
-  .gallery{
+  .gallery {
     flex-direction: column;
     padding: 0 20px;
   }
-  div.galleryPic{
+  div.galleryPic {
     margin-bottom: 15px;
   }
-  footer{
+  footer {
     padding: 70px;
   }
 }
+
 @media only screen and (max-width: 420px) {
-  header{
-    .container{
-      &.d-flex{
+  header {
+    padding: 27px 0;
+
+    .container {
+      &.d-flex {
         max-width: 367px;
       }
     }
   }
 
-
-  div.logo{
+  .wrapper.active-pos {
+    right: -80px;
+    bottom: -20px;
+  }
+  .searchbox .input.active-width {
+    width: 200px;
+    height: 40px;
+    background: #fafafa;
+  }
+  div.logo {
     margin-bottom: 15px;
   }
 
-  .upperMenu ul{
+  .upperMenu ul {
     min-width: 220px;
-    li a, li i{
+
+    li a, li i {
       font-size: 19px;
       margin-right: 10px;
     }
   }
 
-  .slide .slideTitle{
-    h3{
+  .slide .slideTitle {
+    h3 {
       font-size: 12px;
       padding: 9px 2px;
       margin-bottom: 10px;
@@ -191,21 +223,21 @@
       width: 230px;
     }
   }
-  .fterCredits{
+  .fterCredits {
     text-align: center;
   }
 }
 
 @media only screen and (max-width: 375px) {
-  header{
-    .container{
-      &.d-flex{
+  header {
+    .container {
+      &.d-flex {
         max-width: 320px;
       }
     }
   }
-  .owl-prev, owl-next{
-    &:after{
+  .owl-prev, owl-next {
+    &:after {
       font-size: 10px;
     }
   }
@@ -218,13 +250,13 @@
     left: 18%;
     top: 35%
   }
-  .owl-prev, .owl-next{
-    &:after{
+  .owl-prev, .owl-next {
+    &:after {
       font-size: 10px;
     }
   }
-  .owl-dots{
+  .owl-dots {
     bottom: 5px;
   }
-  }
+}
 

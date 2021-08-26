@@ -30,14 +30,14 @@
 @media only screen and (max-width: 768px) {
   header {
     position: relative; }
-    header label {
+    header label.fas {
       visibility: visible;
       opacity: 1;
       padding-right: 20px; }
-    header input:checked ~ .upperMenu {
+    header input#menu-bar:checked ~ .upperMenu {
       transform: scaleY(1);
       opacity: 1; }
-    header input:checked ~ label::before {
+    header input#menu-bar:checked ~ label::before {
       content: '\f00d'; }
     header .container.d-flex {
       flex-direction: row;
@@ -69,6 +69,9 @@
         display: none; }
       .upperMenu ul li i {
         margin-left: 12px; }
+
+  .searchbtn .fas {
+    left: 25%; }
 
   .slide .slideTitle {
     left: 20%; }
@@ -105,8 +108,19 @@
   footer {
     padding: 70px; } }
 @media only screen and (max-width: 420px) {
-  header .container.d-flex {
-    max-width: 367px; }
+  header {
+    padding: 27px 0; }
+    header .container.d-flex {
+      max-width: 367px; }
+
+  .wrapper.active-pos {
+    right: -80px;
+    bottom: -20px; }
+
+  .searchbox .input.active-width {
+    width: 200px;
+    height: 40px;
+    background: #fafafa; }
 
   div.logo {
     margin-bottom: 15px; }

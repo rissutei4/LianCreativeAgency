@@ -15,4 +15,14 @@ $(document).ready(function(){
       }
     }
   });
+
+  //searchBar
+
+  $(".wrapper").click(function(){
+    $(this).toggleClass("active-pos");
+    $(".searchbtn").toggleClass("bg");
+    $(".fas").toggleClass("color-white");
+    $(".input").focus().toggleClass("active-width").val('');
+  });
+
 });

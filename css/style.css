@@ -42,9 +42,9 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000; }
-  header input {
+  header input#menu-bar {
     display: none; }
-  header label {
+  header label.fas {
     font-size: 30px;
     color: #4a4a4a;
     cursor: pointer;
@@ -63,8 +63,8 @@ header {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  min-width: 455px;
-  max-width: 455px;
+  min-width: 480px;
+  max-width: 480px;
   justify-content: space-between;
   align-items: baseline; }
   .upperMenu ul li a {
@@ -100,6 +100,62 @@ header {
       color: black; }
   .upperMenu ul li:last-of-type {
     margin-left: 20px; }
+
+.wrapper {
+  position: relative;
+  bottom: 1px;
+  transform: translate(-50%, -50%); }
+
+.searchbox {
+  position: relative; }
+  .searchbox .input {
+    width: 0px;
+    border: 0px;
+    padding: 0 20px;
+    border-radius: 3px;
+    outline: none;
+    color: #777777;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.5s linear;
+    background: none; }
+
+.searchbtn {
+  position: absolute;
+  top: 0;
+  right: -1px;
+  background: none;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.5s 0.6s linear; }
+  .searchbtn .fas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #777777;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out; }
+  .searchbtn i:hover {
+    color: #000; }
+
+/* jquery class */
+.wrapper.active-pos {
+  right: -30px;
+  bottom: -30px; }
+
+.searchbtn.bg {
+  background-color: #777777;
+  transition: all 0.2s linear; }
+
+.searchbtn .fas.color-white {
+  color: #fff;
+  transition: all 0.2s linear; }
+
+.searchbox .input.active-width {
+  width: 175px;
+  height: 40px;
+  background: #fafafa; }
 
 .owl-nav {
   width: 100%;
