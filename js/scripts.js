@@ -1,5 +1,18 @@
 $(document).ready(function(){
 
+  //sticky navbar
+  window.onscroll = () => {
+    var header  = document.querySelector('header');
+
+    if (window.pageYOffset > 0) {
+      header.classList.add("sticky")
+    }
+    else {
+      header.classList.remove("sticky");
+    }
+  }
+
+  //owl-carousel
   $('.owl-carousel').owlCarousel({
     loop:true,
     margin:0,
@@ -45,4 +58,20 @@ $(document).ready(function(){
   $('#tabs li:first a').click();
 
 });
+//Pop Up Images
+const buttons = document.querySelectorAll('.galleryPic');
+const overlay = document.querySelector('.overlay');
+const overlayImage = document.querySelector('.overlay__inner img');
 
+function open(e) {
+  overlay.classList.add('open');
+  const src= e.currentTarget.querySelector('img').src;
+  overlayImage.src = src;
+}
+
+function close() {
+  overlay.classList.remove('open');
+}
+
+buttons.forEach(button => button.addEventListener('click', open));
+overlay.addEventListener('click', close);

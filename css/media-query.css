@@ -131,6 +131,12 @@
       font-size: 19px;
       margin-right: 10px; }
 
+  .overlay__inner {
+    max-width: 75%;
+    max-height: 75%; }
+    .overlay__inner img {
+      max-width: 100%; }
+
   .slide .slideTitle h3 {
     font-size: 12px;
     padding: 9px 2px;
