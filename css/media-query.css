@@ -11,7 +11,7 @@
   .upperMenu ul li i {
     font-size: 14px; }
 
-  .contentList ul li a {
+  #tabs ul li a {
     font-size: 14px; }
 
   .slide .slideTitle {
@@ -98,7 +98,7 @@
     .contentList ul li a {
       font-size: 14px; }
 
-  .gallery {
+  .tab {
     flex-direction: column;
     padding: 0 20px; }
 

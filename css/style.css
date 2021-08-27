@@ -26,6 +26,11 @@
     transform: translate(500px, 400px); }
   100% {
     transform: translate(0, 0); } }
+@keyframes galPicUp {
+  0% {
+    transform: translate(500px, 400px); }
+  100% {
+    transform: translate(0, 0); } }
 * {
   margin: 0;
   padding: 0; }
@@ -109,8 +114,8 @@ header {
 .searchbox {
   position: relative; }
   .searchbox .input {
-    width: 0px;
-    border: 0px;
+    width: 0;
+    border: 0;
     padding: 0 20px;
     border-radius: 3px;
     outline: none;
@@ -260,7 +265,7 @@ header {
       font-family: "Roboto-Light", sans-serif;
       animation: moveUp 2s ease-in-out; }
 
-.contentList ul {
+#tabs ul {
   border-top: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
   background-color: #fafafa;
@@ -271,16 +276,16 @@ header {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; }
-  .contentList ul li a {
+  #tabs ul li a {
     text-decoration: none;
     color: #777777;
     font-size: 11px;
     text-transform: uppercase;
     font-family: "Roboto-Bold", sans-serif;
     transition: .3s linear; }
-    .contentList ul li a:hover {
+    #tabs ul li a:hover {
       color: black; }
-    .contentList ul li a:after {
+    #tabs ul li a:after {
       content: "";
       border-right: 1px solid #e1e1e1;
       transform: rotate(15deg);
@@ -288,15 +293,18 @@ header {
       height: 25px;
       margin: 0 20px;
       vertical-align: middle; }
-    .contentList ul li a.dsNone:after {
+    #tabs ul li a.dsNone:after {
       display: none; }
 
 .container.gal {
   margin-bottom: 40px; }
 
-.gallery {
+.tab {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-around; }
+
+#tabs a.active {
+  color: #000; }
 
 .galleryColumnFirst, .galleryColumnSecond, .galleryColumnThird {
   display: flex;
@@ -309,10 +317,7 @@ header {
 
 div.galleryPic {
   margin-bottom: 35px;
-  position: relative;
-  transition: 0.5s linear; }
-  div.galleryPic:last-of-type {
-    margin-bottom: 0; }
+  position: relative; }
   div.galleryPic:hover img {
     opacity: 0.8;
     filter: brightness(40%); }

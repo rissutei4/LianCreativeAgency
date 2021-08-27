@@ -25,4 +25,24 @@ $(document).ready(function(){
     $(".input").focus().toggleClass("active-width").val('');
   });
 
+
+    //tabs
+  //alert('here');
+
+  $('#tabs a').click(function(){
+
+    $('.tab').hide();
+    $('#tabs a.active').removeClass('active');
+    $(this).addClass('active');
+
+    var tab = $(this).attr('href');
+    $(tab).fadeIn(1000);
+
+    return false;  // prevents link action
+
+  });  // end click
+
+  $('#tabs li:first a').click();
+
 });
+
