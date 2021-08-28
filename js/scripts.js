@@ -11,6 +11,23 @@ $(document).ready(function(){
       header.classList.remove("sticky");
     }
   }
+  //scroll with appearing items
+  window.addEventListener('scroll', reveal);
+
+  function reveal(){
+    var reveals = document.querySelectorAll('.reveal');
+
+    for(var i = 0; i < reveals.length; i++){
+
+      var windowheight = window.innerHeight;
+      var revealtop = reveals[i].getBoundingClientRect().top;
+      var revealpoint = 150;
+
+      if(revealtop < windowheight - revealpoint){
+        reveals[i].classList.add('active');
+      }
+    }
+  }
 
   //owl-carousel
   $('.owl-carousel').owlCarousel({
@@ -40,7 +57,6 @@ $(document).ready(function(){
 
 
     //tabs
-  //alert('here');
 
   $('#tabs a').click(function(){
 

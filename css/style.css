@@ -2,6 +2,7 @@
 @import url(owl.theme.default.css);
 @import url(owl.carousel.min.css);
 @import url(owl.theme.default.min.css);
+@import url(about.css);
 @font-face {
   font-family: 'Roboto-Bold';
   src: url("../fonts/Roboto-Bold.eot");

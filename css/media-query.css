@@ -30,6 +30,8 @@
 @media only screen and (max-width: 768px) {
   header {
     position: relative; }
+    header.sticky {
+      padding: 8px 0 3px; }
     header label.fas {
       visibility: visible;
       opacity: 1;
