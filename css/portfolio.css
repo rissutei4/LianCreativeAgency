@@ -94,8 +94,11 @@
         margin-bottom: 12px; }
       .banner .bannerTitle p {
         letter-spacing: 8px; } }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   .banner .bannerTitle p {
     letter-spacing: 8px; } }
+@media only screen and (max-width: 360px) {
+  .banner .bannerTitle p {
+    letter-spacing: 6px; } }
 
 /*# sourceMappingURL=portfolio.css.map */
