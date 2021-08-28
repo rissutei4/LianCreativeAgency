@@ -454,33 +454,55 @@ $rbtThin: 'Roboto-Thin', sans-serif;
 
 /*media-queries*/
 @media only screen and (max-width: 1024px) {
+
+  .banner {
+    .bannerTitle {
+      h3 {
+        font-size: 33px;
+        padding: 11px 33px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  header{
+    .container{
+      &.d-flex{
+        align-items: baseline;
+        flex-direction: row;
+      }
+    }
+  }
   .container {
     max-width: 995px;
     margin: auto;
     padding: 0 15px;
   }
-  .d-flex{
+  .d-flex {
     flex-direction: column;
   }
-  .storySkills{
+  .storySkills {
     margin-bottom: 30px;
   }
 
-  .skill-bars{
+  .skill-bars {
     max-width: 700px;
   }
-  .strSkillsCont{
+  .strSkillsCont {
     padding: 20px 20px;
   }
 }
 
 @media only screen and (max-width: 992px) {
-
+  .banner .bannerTitle h3 {
+    font-size: 23px;
+    padding: 11px 23px;
+    margin-bottom: 10px;
+  }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .banner {
-    max-width: 767px;
+    max-width: 768px;
     padding: 0 15px;
     height: 150px;
 
@@ -550,3 +572,4 @@ $rbtThin: 'Roboto-Thin', sans-serif;
 @media only screen and (max-width: 320px) {
 
 }
+
