@@ -298,7 +298,7 @@ $rbtThin: 'Roboto-Thin', sans-serif;
       i {
         position: absolute;
         top: 40%;
-        left: 45%;
+        left: 40%;
         border-radius: 50%;
         font-size: 34px;
         color: #ffffff;
@@ -306,6 +306,8 @@ $rbtThin: 'Roboto-Thin', sans-serif;
         height: 60px;
         line-height: 60px;
         transition: .3s linear;
+        text-align:center;
+        background-color: rgba(0, 0, 0, 0.6);
 
         &:hover {
           color: #e3dfdf;
