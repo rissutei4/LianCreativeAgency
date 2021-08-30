@@ -51,7 +51,7 @@
   position: relative;
   margin-bottom: 70px; }
   .banner .bannerImg img {
-    max-width: 100%;
+    width: 100%;
     background-size: cover; }
   .banner .bannerTitle {
     position: absolute;
