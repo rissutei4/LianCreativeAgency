@@ -308,7 +308,7 @@ header {
       height: 25px;
       margin: 0 20px;
       vertical-align: middle; }
-    #tabs ul li a.dsNone:after {
+    #tabs ul li aNone:after {
       display: none; }
 
 .container.gal {

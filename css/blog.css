@@ -101,6 +101,8 @@
   max-width: 360px;
   background-color: #fff;
   margin-bottom: 30px; }
+  .blogPost a {
+    text-decoration: none; }
   .blogPost .blogPostContent {
     padding: 40px 45px; }
     .blogPost .blogPostContent .heading {
@@ -176,12 +178,15 @@
     .blogVideo .videoThumbnail img {
       width: 100%;
       height: 100%;
-      transition: all 0.4s;
+      transition: all 0.5s;
       transform: scale(1); }
     .blogVideo .videoThumbnail:hover img {
       opacity: 0.8;
       filter: brightness(40%);
       transform: scale(1.1); }
+    .blogVideo .videoThumbnail:hover i {
+      color: #e3dfdf;
+      background-color: rgba(0, 0, 0, 0.3); }
     .blogVideo .videoThumbnail a i {
       position: absolute;
       top: 40%;
@@ -195,8 +200,6 @@
       transition: .3s linear;
       text-align: center;
       background-color: rgba(0, 0, 0, 0.6); }
-      .blogVideo .videoThumbnail a i:hover {
-        color: #e3dfdf; }
 
 .blogPostwImage .blogPostImage img {
   width: 100%;

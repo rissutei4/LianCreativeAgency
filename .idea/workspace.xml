@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f971e5a7-413d-410d-8523-dd5e2e46f36e" name="Changes" comment="fixed the video button">
+      <change afterPath="$PROJECT_DIR$/css/singlePost.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/27d52482c26aaf6b93d5931675dff74c8f41742b/blog.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/27d52482c26aaf6b93d5931675dff74c8f41742b/blog.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/27d52482c26aaf6b93d5931675dff74c8f41742b/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/27d52482c26aaf6b93d5931675dff74c8f41742b/style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blog.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/blog.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singlePost.html" beforeDir="false" afterPath="$PROJECT_DIR$/singlePost.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1xDNe8Fkp5TeANuXi9lBgrZJJBH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NEW_TOOLWINDOW_STRIPE_DEFAULTS" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/Programming" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f971e5a7-413d-410d-8523-dd5e2e46f36e" name="Changes" comment="" />
+      <created>1629885795332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629885795332</updated>
+      <workItem from="1629885798408" duration="820000" />
+      <workItem from="1629887626327" duration="592000" />
+      <workItem from="1629916305205" duration="514000" />
+      <workItem from="1629920200832" duration="4161000" />
+      <workItem from="1629963242999" duration="12480000" />
+      <workItem from="1630051099793" duration="415000" />
+      <workItem from="1630051647223" duration="903000" />
+      <workItem from="1630063150177" duration="14218000" />
+      <workItem from="1630091595025" duration="7079000" />
+      <workItem from="1630137635205" duration="5753000" />
+      <workItem from="1630144540122" duration="8703000" />
+      <workItem from="1630159299507" duration="1757000" />
+      <workItem from="1630170665958" duration="13716000" />
+      <workItem from="1630220512841" duration="10683000" />
+      <workItem from="1630246438806" duration="17364000" />
+      <workItem from="1630305486298" duration="6716000" />
+      <workItem from="1630338222387" duration="16366000" />
+      <workItem from="1630385771304" duration="10817000" />
+      <workItem from="1630413361435" duration="3022000" />
+    </task>
+    <task id="LOCAL-00001" summary="added keyframes, removed backslash on the tabs, fixed carousel">
+      <created>1629886281985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629886281985</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finally made decent burger menu">
+      <created>1629924165869</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629924165869</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added searchbar">
+      <created>1629972795390</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629972795390</updated>
+    </task>
+    <task id="LOCAL-00004" summary="made gallery menu as tabs">
+      <created>1630051184667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630051184667</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added Pop Up gallery, sticky header on scroll and something else.">
+      <created>1630080962823</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630080962823</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added about page and a bit of adaptation to it.">
+      <created>1630156476468</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1630156476469</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added to git more fonts and images">
+      <created>1630159638493</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1630159638493</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fixed some problems">
+      <created>1630176323610</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1630176323611</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed some problems">
+      <created>1630176589057</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1630176589057</updated>
+    </task>
+    <task id="LOCAL-00010" summary="rewrited skillbars">
+      <created>1630178667241</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1630178667241</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added portfolio page">
+      <created>1630182602027</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1630182602027</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixed some things">
+      <created>1630183034416</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1630183034416</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fully adaptive and done blog page">
+      <created>1630355493507</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1630355493507</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fixed the video button">
+      <created>1630356046168</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1630356046168</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added keyframes, removed backslash on the tabs, fixed carousel" />
+    <MESSAGE value="finally made decent burger menu" />
+    <MESSAGE value="added searchbar" />
+    <MESSAGE value="made gallery menu as tabs" />
+    <MESSAGE value="added Pop Up gallery, sticky header on scroll and something more." />
+    <MESSAGE value="added Pop Up gallery, sticky header on scroll and something else." />
+    <MESSAGE value="added about page and a bit of adaptation to it." />
+    <MESSAGE value="added to git more fonts and images" />
+    <MESSAGE value="fixed some problems" />
+    <MESSAGE value="rewrited skillbars" />
+    <MESSAGE value="added portfolio page" />
+    <MESSAGE value="fixed some things" />
+    <MESSAGE value="fully adaptive and done blog page" />
+    <MESSAGE value="fixed the video button" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the video button" />
+  </component>
+</project>

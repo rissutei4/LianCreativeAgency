@@ -5,9 +5,181 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/singlePost.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <title>Post</title>
 </head>
 <body>
+<header>
+    <div class="container d-flex">
+        <div class="logo">
+            <a href="#">
+                <img src="images/logo.png" alt="logo">
+            </a>
+        </div>
 
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fas fa-bars"></label>
+
+        <nav class="upperMenu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="blog.html" class="active">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <div class="wrapper">
+                        <div class="searchbox">
+                            <form action="" method="post">
+                                <label>
+                                    <input type="search" class="input" placeholder="Search">
+                                </label>
+                            </form>
+                            <div class="searchbtn">
+                                <i class="fas fa-search"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section>
+    <div class="banner">
+        <div class="bannerImg">
+            <img src="images/blogBanner.png" alt="">
+        </div>
+        <div class="bannerTitle">
+            <h3>News About Lian</h3>
+            <p>Latest News and Insights</p>
+        </div>
+    </div>
+</section>
+
+<div class="container d-flex post">
+
+    <div class="sPostHeading">
+        <h2>I am a blog post with an awesome image</h2>
+        <div class="sPostAddInfo">
+            <span>by Jenn Pereira</span>
+            <span>February 28, 2015</span>
+            <a class="pressLike"><i class="fas fa-heart likeAdd"></i> <span> <span class="addLike">324</span> likes</span></a>
+        </div>
+    </div>
+
+    <div class="sPostImage">
+        <img src="images/sPostImage.png" alt="">
+    </div>
+
+    <div class="sPostContent">
+
+        <div class="sPostFirstPart">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur dignissimos,
+                dolorem doloribus dolorum, exercitationem expedita ipsam magnam minima nesciunt, quos totam! At
+                consequatur, dignissimos odio perspiciatis soluta tempora. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Ad aliquam, at culpa enim ipsum itaque iure mollitia nam nisi officiis, placeat
+                reiciendis suscipit vel veritatis vitae. Dolor ex impedit officia. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur dignissimos,
+                dolorem doloribus dolorum, exercitationem expedita ipsam magnam minima nesciunt, quos totam! At
+                consequatur, dignissimos odio perspiciatis soluta tempora. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Consequatur ea ex, minima necessitatibus nesciunt quam quia voluptas. Aspernatur
+                delectus et fuga nesciunt omnis pariatur reiciendis rerum! Beatae dolore eos tempore.</p>
+        </div>
+
+        <div class="sPostWarning">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis cumque doloremque dolores eaque
+            eos exercitationem impedit ipsa laborum magnam nostrum porro praesentium quos reiciendis, saepe totam
+            veritatis vero voluptas?
+        </div>
+
+        <div class="sPostSecondPart">
+            <h3>This is a heading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur dignissimos,
+                dolorem doloribus dolorum, exercitationem expedita ipsam magnam minima nesciunt, quos totam! At
+                consequatur, dignissimos odio perspiciatis soluta tempora. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Autem consequuntur culpa, cupiditate deleniti ducimus eius error fugiat ipsa, ipsam,
+                maiores mollitia quod reprehenderit sunt temporibus veniam! Blanditiis dolore laboriosam ut.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur dignissimos,
+                dolorem doloribus dolorum, exercitationem expedita ipsam magnam minima nesciunt, quos totam! At
+                consequatur, dignissimos odio perspiciatis soluta tempora. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Deserunt eveniet obcaecati quae sint. Consequuntur harum rerum voluptas voluptates.
+                Asperiores debitis, doloremque dolorum ea ex facere mollitia natus nisi quae sequi.</p>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container Comment">
+    <h3>Leave a Comment</h3>
+
+    <form action="#" method="post">
+        <div class="formRow">
+            <div>
+                <input id="name" name="name" type="text" placeholder="Name">
+            </div>
+
+            <div>
+                <input id="email" name="email" type="email" placeholder="Email">
+            </div>
+
+            <div>
+                <input id="website" name="website" type="text" placeholder="Website">
+            </div>
+        </div>
+
+        <div>
+            <textarea placeholder="Message"></textarea>
+        </div>
+
+        <div class="frButton">
+        <button type="submit">
+            <span>Send Message</span>
+        </button>
+        </div>
+    </form>
+</div>
+<footer>
+    <div class="container fter">
+        <div class="footerLogo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="socialsFooter">
+            <ul class="socialsList">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="fterCredits">
+            <h4>© 2016 <a href="#"> MULITIX THEME</a> BY THEMEFORCES. ALL RIGHTS RESERVED.</h4>
+        </div>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/9df2c8dd8e.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
+
+

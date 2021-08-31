@@ -106,3 +106,8 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function(){
+    $('.pressLike').click(function(){
+        $('.likeAdd').toggleClass("active-heart")
+    });
+});
