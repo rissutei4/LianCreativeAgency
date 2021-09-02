@@ -98,56 +98,64 @@ $ptSerifBldItl: 'PT Serif-BoldItal', sans-serif;
 }
 
 
-.container.d-flex.post{
+.container.d-flex.post {
   display: flex;
   flex-direction: column;
   max-width: 950px;
   margin: auto;
 }
 
-.sPostHeading{
+.sPostHeading {
   margin-bottom: 30px;
-  h2{
+
+  h2 {
     font-family: $rbtThin;
     font-size: 30px;
-    color:#333333;
+    color: #333333;
     text-transform: uppercase;
   }
-  .sPostAddInfo{
+
+  .sPostAddInfo {
     display: flex;
     align-items: baseline;
     justify-content: space-around;
     margin-top: 25px;
-    span{
+
+    span {
       font-family: $rbtBld;
-      color:#777777;
+      color: #777777;
       font-size: 14px;
     }
-    a{
+
+    a {
       text-decoration: none;
-      i{
+
+      i {
         color: #777777;
         font-size: 14px;
         margin-right: 5px;
         cursor: pointer;
-        &.active-heart{
-          color:darkred;
+
+        &.active-heart {
+          color: darkred;
         }
       }
     }
   }
 }
-.sPostImage{
-  img{
+
+.sPostImage {
+  img {
     width: 100%;
     height: 100%;
   }
 }
 
-.sPostContent{
+.sPostContent {
   padding: 50px;
-  .sPostFirstPart, .sPostSecondPart{
-    h3{
+
+  .sPostFirstPart, .sPostSecondPart {
+    h3 {
       color: #333333;
       font-family: $rbtBld;
       text-transform: uppercase;
@@ -156,149 +164,179 @@ $ptSerifBldItl: 'PT Serif-BoldItal', sans-serif;
       padding-top: 10px;
     }
 
-    p{
+    p {
       font-size: 14px;
       font-family: $rbtReglr;
-      color:#777777;
+      color: #777777;
       margin-bottom: 50px;
     }
   }
 
-  .sPostWarning{
+  .sPostWarning {
     border: 1px solid #b4b4b4;
-    border-left:5px solid #b4b4b4;
+    border-left: 5px solid #b4b4b4;
     padding: 30px 40px;
     color: #777777;
     font-family: $ptSerifBldItl;
   }
 }
 
-.container.Comment{
+.container.Comment {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 950px;
   margin-bottom: 86px;
   padding: 50px;
-  h3{
+
+  h3 {
     font-family: $rbtThin;
     font-size: 30px;
-    color:#000000;
+    color: #000000;
     text-transform: uppercase;
     letter-spacing: 6px;
     margin-bottom: 50px;
+    text-align: center;
   }
-  input{
+
+  input {
     width: 250px;
     max-width: 272px;
     border: 1px solid #b4b4b4;
     padding: 15px;
-    color:#777;
+    color: #777;
     font-family: $rbtReglr;
     font-style: italic;
     font-size: 14px;
     border-radius: 2px;
     outline: none;
-    &::placeholder{
-      color:#c4c4c4;
+
+    &::placeholder {
+      color: #c4c4c4;
     }
-    &:focus{
-      border-left:5px solid #b4b4b4;
+
+    &:focus {
+      border-left: 5px solid #b4b4b4;
     }
   }
-  textarea{
+
+  textarea {
     width: 93%;
     margin-bottom: 20px;
     max-height: 150px;
     height: 110px;
     border: 1px solid #b4b4b4;
     padding: 15px;
-    color:#777;
+    color: #777;
     font-family: $rbtReglr;
     font-style: italic;
     font-size: 14px;
     border-radius: 2px;
     outline: none;
     resize: none;
-    &::placeholder{
-      color:#c4c4c4;
+
+    &::placeholder {
+      color: #c4c4c4;
     }
-    &:focus{
-      border-left:5px solid #b4b4b4;
+
+    &:focus {
+      border-left: 5px solid #b4b4b4;
     }
   }
-form{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  .formRow{
+
+  form {
     display: flex;
-    flex-direction: row;
-    margin-bottom: 22px;
+    flex-direction: column;
     justify-content: space-between;
+
+    .formRow {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 22px;
+      justify-content: space-between;
+    }
+
+    div input {
+      margin-right: 30px;
+    }
   }
-  div input{
-    margin-right: 30px;
-  }
-}
-  .frButton{
+
+  .frButton {
     display: flex;
     justify-content: center;
   }
-button{
-  border:none;
-  border: 2px;
-  background-color: #000000;
-  display: inline-block;
-  padding: 12px 24px;
-  width: 170px;
-  max-width: 230px;
-  transition: 0.3s;
-  &:hover {
-    background-color: #555555;
-    box-shadow: 6px 6px 5px -5px rgba(34, 60, 80, 0.6);
+
+  button {
+    border: none;
+    border: 2px;
+    background-color: #000000;
+    display: inline-block;
+    padding: 12px 24px;
+    width: 170px;
+    max-width: 230px;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #555555;
+      box-shadow: 6px 6px 5px -5px rgba(34, 60, 80, 0.6);
+    }
+
+    span {
+      text-align: center;
+      color: #fff;
+      text-transform: uppercase;
+      font-family: $rbtBld;
+    }
   }
-  span{
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: $rbtBld;
-  }
-}
 }
 
 
 @media only screen and (max-width: 1024px) {
 
 }
+
 @media only screen and (max-width: 992px) {
 
 }
+
 @media only screen and (max-width: 769px) {
-  .container.Comment form{
-    .formRow{
-      flex-direction: column;
-      input{
-        margin-bottom: 20px;
+  .container.Comment {
+    align-items:normal;
+    form {
+      .formRow {
+        flex-direction: column;
+
+        input {
+          margin-bottom: 20px;
+          max-width: 100%;
+          width: 85%;
+        }
+      }
+      textarea{
+        width: 85%;
       }
     }
   }
 
 }
+
 @media only screen and (max-width: 420px) {
   .banner .bannerTitle p {
     letter-spacing: 3px;
   }
 
 }
+
 @media only screen and (max-width: 375px) {
 
 }
+
 @media only screen and (max-width: 360px) {
 
 }
+
 @media only screen and (max-width: 320px) {
-  .container.Comment textarea{
-    width:88%;
+  .container.Comment textarea {
+    width: 88%;
   }
 }

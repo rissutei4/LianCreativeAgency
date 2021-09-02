@@ -263,6 +263,10 @@ $rbtThin: 'Roboto-Thin', sans-serif;
           i {
             font-size: 13px;
             color: #cccccc;
+            cursor: pointer;
+            &.active-heart {
+              color: darkred;
+            }
           }
         }
       }

@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f971e5a7-413d-410d-8523-dd5e2e46f36e" name="Changes" comment="fixed the video button">
-      <change afterPath="$PROJECT_DIR$/css/singlePost.scss" afterDir="false" />
+    <list default="true" id="f971e5a7-413d-410d-8523-dd5e2e46f36e" name="Changes" comment="added single post page">
+      <change afterPath="$PROJECT_DIR$/images/missionValue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/visionValue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/weAreValue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/27d52482c26aaf6b93d5931675dff74c8f41742b/blog.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/27d52482c26aaf6b93d5931675dff74c8f41742b/blog.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/27d52482c26aaf6b93d5931675dff74c8f41742b/contact.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/27d52482c26aaf6b93d5931675dff74c8f41742b/contact.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/27d52482c26aaf6b93d5931675dff74c8f41742b/singlePost.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/27d52482c26aaf6b93d5931675dff74c8f41742b/singlePost.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/27d52482c26aaf6b93d5931675dff74c8f41742b/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/27d52482c26aaf6b93d5931675dff74c8f41742b/style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/blog.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/blog.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/singlePost.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/singlePost.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/singlePost.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/singlePost.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/singlePost.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/singlePost.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/singlePost.html" beforeDir="false" afterPath="$PROJECT_DIR$/singlePost.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +101,10 @@
       <workItem from="1630305486298" duration="6716000" />
       <workItem from="1630338222387" duration="16366000" />
       <workItem from="1630385771304" duration="10817000" />
-      <workItem from="1630413361435" duration="3022000" />
+      <workItem from="1630413361435" duration="3542000" />
+      <workItem from="1630485636300" duration="432000" />
+      <workItem from="1630504415848" duration="11791000" />
+      <workItem from="1630610951274" duration="3575000" />
     </task>
     <task id="LOCAL-00001" summary="added keyframes, removed backslash on the tabs, fixed carousel">
       <created>1629886281985</created>
@@ -189,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630356046168</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added single post page">
+      <created>1630422500935</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1630422500935</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +245,7 @@
     <MESSAGE value="fixed some things" />
     <MESSAGE value="fully adaptive and done blog page" />
     <MESSAGE value="fixed the video button" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed the video button" />
+    <MESSAGE value="added single post page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added single post page" />
   </component>
 </project>

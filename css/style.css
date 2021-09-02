@@ -335,6 +335,8 @@ div.galleryPic {
   position: relative;
   cursor: pointer;
   overflow: hidden; }
+  div.galleryPic.dsNone {
+    display: none; }
   div.galleryPic img {
     transition: all 0.3s;
     transform: scale(1); }
@@ -414,7 +416,7 @@ button.viewPopUp, button.close {
       background: #e3dfdf;
       cursor: pointer; }
 
-.loadMoreBtn {
+#loadMoreBtn {
   display: flex;
   justify-content: center; }
 

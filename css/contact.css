@@ -35,5 +35,204 @@
   font-weight: 100;
   font-style: normal;
   font-display: swap; }
+.container.detailInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px; }
+  .container.detailInfo .officeInform {
+    margin-right: 60px; }
+    .container.detailInfo .officeInform .informHeading {
+      margin-bottom: 45px; }
+      .container.detailInfo .officeInform .informHeading h3 {
+        font-family: "Roboto-Light", sans-serif;
+        font-size: 30px;
+        color: #000000;
+        text-transform: uppercase;
+        letter-spacing: 10px; }
+      .container.detailInfo .officeInform .informHeading p {
+        color: #2f302f;
+        font-family: "Roboto-Light", sans-serif;
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-transform: none;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+      .container.detailInfo .officeInform .informHeading span {
+        width: 60px;
+        border-bottom: 1px solid #000;
+        display: inline-block; }
+    .container.detailInfo .officeInform .informContent p {
+      color: #000;
+      font-size: 15px;
+      font-family: "Roboto-Bold", sans-serif;
+      margin-bottom: 35px; }
+      .container.detailInfo .officeInform .informContent p:nth-of-type(3) {
+        margin-bottom: 15px; }
+      .container.detailInfo .officeInform .informContent p:last-of-type {
+        margin-bottom: 0; }
+      .container.detailInfo .officeInform .informContent p span {
+        font-family: "Roboto-Regular", sans-serif;
+        color: #555555;
+        margin-left: 10px; }
+
+.contactForm input {
+  width: 344px;
+  max-width: 360px;
+  border: 1px solid #b4b4b4;
+  padding: 15px;
+  color: #777;
+  font-family: "Roboto-Regular", sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  border-radius: 2px;
+  outline: none; }
+  .contactForm input::placeholder {
+    color: #c4c4c4; }
+  .contactForm input:focus {
+    border-left: 5px solid #b4b4b4; }
+.contactForm textarea {
+  max-width: 750px;
+  width: 100%;
+  margin-bottom: 30px;
+  max-height: 150px;
+  height: 110px;
+  border: 1px solid #b4b4b4;
+  padding: 15px;
+  color: #777;
+  font-family: "Roboto-Regular", sans-serif;
+  font-style: italic;
+  font-size: 14px;
+  border-radius: 2px;
+  outline: none;
+  resize: none; }
+  .contactForm textarea::placeholder {
+    color: #c4c4c4; }
+  .contactForm textarea:focus {
+    border-left: 5px solid #b4b4b4; }
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .contactForm form .formRow {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 22px;
+    justify-content: space-between; }
+  .contactForm form div input {
+    margin-right: 30px; }
+  .contactForm form .mN {
+    margin: 0 !important; }
+.contactForm .frButton {
+  display: flex;
+  justify-content: flex-start; }
+.contactForm button {
+  border: none;
+  border: 2px;
+  background-color: #000000;
+  display: inline-block;
+  padding: 12px 24px;
+  width: 170px;
+  max-width: 230px;
+  transition: 0.3s; }
+  .contactForm button:hover {
+    background-color: #555555;
+    box-shadow: 6px 6px 5px -5px rgba(34, 60, 80, 0.6); }
+  .contactForm button span {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Roboto-Bold", sans-serif; }
+
+.iframeMapContainer {
+  margin-bottom: 70px; }
+  .iframeMapContainer iframe {
+    width: 100%;
+    height: 360px;
+    filter: grayscale(50%); }
+
+iframe a.loEPla {
+  display: none !important; }
+
+.ourValText {
+  max-width: 650px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px; }
+  .ourValText h3 {
+    font-family: "Roboto-Light", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 17px;
+    font-size: 30px;
+    color: #06060a;
+    margin-bottom: 40px; }
+  .ourValText p {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 14px;
+    color: #777777;
+    line-height: 30px;
+    text-align: center; }
+
+.valuesContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 60px; }
+
+.valueCard {
+  max-width: 360px;
+  margin-right: 40px; }
+  .valueCard .valueImg {
+    margin-bottom: 30px; }
+    .valueCard .valueImg img {
+      width: 100%;
+      height: 100%; }
+  .valueCard h3 {
+    letter-spacing: 4px;
+    color: black;
+    font-family: "Roboto-Light", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 40px; }
+  .valueCard p {
+    color: #777;
+    font-size: 14px;
+    font-family: "Roboto-Regular", sans-serif; }
+
+@media only screen and (max-width: 769px) {
+  input {
+    margin-right: 0 !important;
+    margin-bottom: 20px; }
+
+  .formRow {
+    flex-direction: column !important; }
+
+  .contactForm textarea {
+    width: 92%; } }
+@media only screen and (max-width: 426px) {
+  .container.detailInfo {
+    flex-direction: column !important; }
+
+  .container.detailInfo .officeInform {
+    margin-right: 0;
+    margin-bottom: 60px; }
+
+  .valuesContent {
+    flex-direction: column; }
+
+  .valueCard {
+    margin-bottom: 40px;
+    margin-right: 0; } }
+@media only screen and (max-width: 376px) {
+  .contactForm input {
+    width: 318px; } }
+@media only screen and (max-width: 360px) {
+  .contactForm input {
+    width: 266px; }
+
+  .ourValText h3 {
+    letter-spacing: 11px; } }
 
 /*# sourceMappingURL=contact.css.map */

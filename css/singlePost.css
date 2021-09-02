@@ -112,7 +112,8 @@
     color: #000000;
     text-transform: uppercase;
     letter-spacing: 6px;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    text-align: center; }
   .container.Comment input {
     width: 250px;
     max-width: 272px;
@@ -179,10 +180,16 @@
       font-family: "Roboto-Bold", sans-serif; }
 
 @media only screen and (max-width: 769px) {
-  .container.Comment form .formRow {
-    flex-direction: column; }
-    .container.Comment form .formRow input {
-      margin-bottom: 20px; } }
+  .container.Comment {
+    align-items: normal; }
+    .container.Comment form .formRow {
+      flex-direction: column; }
+      .container.Comment form .formRow input {
+        margin-bottom: 20px;
+        max-width: 100%;
+        width: 85%; }
+    .container.Comment form textarea {
+      width: 85%; } }
 @media only screen and (max-width: 420px) {
   .banner .bannerTitle p {
     letter-spacing: 3px; } }

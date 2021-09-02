@@ -161,7 +161,10 @@
           margin: 0; }
         .blogPost .blogPostContent .blogPostFooter .blgFterShareLike a i {
           font-size: 13px;
-          color: #cccccc; }
+          color: #cccccc;
+          cursor: pointer; }
+          .blogPost .blogPostContent .blogPostFooter .blgFterShareLike a i.active-heart {
+            color: darkred; }
 
 .blogVideo {
   display: block;

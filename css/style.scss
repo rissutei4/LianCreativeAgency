@@ -464,12 +464,14 @@ header {
     height: auto;
   }
 }
-
 div.galleryPic {
   margin-bottom: 35px;
   position: relative;
   cursor:pointer;
   overflow: hidden;
+  &.dsNone {
+    display: none;
+  }
   img{
     transition: all 0.3s;
     transform: scale(1);
@@ -560,7 +562,7 @@ button.viewPopUp, button.close{
   }
 }
 
-.loadMoreBtn {
+#loadMoreBtn {
   display: flex;
   justify-content: center;
 }
